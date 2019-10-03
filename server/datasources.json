@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "threadDb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "threadDb",
+    "password": "b3t$fl1p",
+    "name": "threadDb",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "user_fiber",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "userId": {
+      "type": "number",
+      "required": true
+    },
+    "fiberId": {
+      "type": "number",
+      "required": true
+    },
+    "inUse": {
+      "type": "boolean",
+      "default": false
+    },
+    "project_notes": {
+      "type": "string"
+    },
+    "other_notes": {
+      "type": "string"
+    },
+    "howMany": {
+      "type": "number"
+    },
+    "partialHank": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "user_buy_list",
+  "plural": "shoppinglist",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "userId": {
+      "type": "number",
+      "required": true
+    },
+    "fiberId": {
+      "type": "number",
+      "required": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
